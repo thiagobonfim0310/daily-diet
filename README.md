@@ -2,7 +2,7 @@
 
 ## Descrição do Projeto
 
-CRUD de tasks
+Api para o cadastro de refeições da dieta.
 
 ### Features
 
@@ -13,8 +13,8 @@ CRUD de tasks
 - [x] Listar refeições por usuario
 - [x] Atualizar de refeições por usuario
 - [x] Deletar refeições por usuario
-- [x] Marcar as tasks como concluída
-- [x] Cadastrar tasks a partir de um arquivo csv
+- [x] Listar os parametros das refeições(quantidade)
+- [x] Listar a melhor sequencia de refeições dentro da dieta
 
 ### Pré-requisitos
 
@@ -26,13 +26,13 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/thiagobonfim0310/tasks-crud>
+$ git clone <https://github.com/thiagobonfim0310/daily-diet>
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd nlw1
+$ cd daily-diet
 
 # Vá para a pasta server
-$ cd server
+$ cd src
 
 # Instale as dependências
 $ npm install
@@ -40,18 +40,14 @@ $ npm install
 # Execute a aplicação em modo de desenvolvimento
 $ npm run dev
 
-# Vá para a pasta server
-$ cd src/csv-read
-
-# Execute os script para ler o csv
-$ npm run csv-import.js
-
 # O servidor inciará na porta:8000 - acesse <http://localhost:3333>
 
 ### 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [csv-parse]
+- [Fastify]
 - [Node.js]
-
+- [Knex]
+- [Zod]crypto
+- [Crypto]
